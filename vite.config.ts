@@ -1,13 +1,14 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { fileURLToPath, URL } from 'url';
 import { resolve } from 'path';
+import { fileURLToPath, URL } from 'url';
 
-// Convert import.meta.url to __dirname
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+  ],
   build: {
     outDir: 'dist',
     rollupOptions: {

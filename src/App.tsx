@@ -7,7 +7,7 @@ import Settings from './components/Settings';
 const App: React.FC = () => {
   return (
     <div style={{ width: '300px', height: '400px', padding: '10px' }}>
-      <h1>Crypto Wallet</h1>
+      <h3>Hander Crypto Wallet</h3>
       <Dashboard />
       <Balance />
       <SendReceive />
