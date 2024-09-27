@@ -12,6 +12,6 @@
     "outDir": "dist",
     "types": ["chrome"]  // Ensure Chrome types are included
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/components/SolanaWallet.tsx"],
   "exclude": ["node_modules"]
 }
